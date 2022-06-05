@@ -1,10 +1,16 @@
 import UIKit
 
-class NewsFeedViewController: UIViewController {
+final class NewsFeedViewController: UIViewController, NewsFeedViewProtocol {
+
+		var presenter: NewsFeedPresenterProtocol?
 
 		override func viewDidLoad() {
 				super.viewDidLoad()
-				view.backgroundColor = .red
+				presenter?.viewDidLoad()
+		}
+
+		func showBgColor(color: UIColor) {
+				view.backgroundColor = color
 		}
 }
 

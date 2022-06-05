@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 						window?.backgroundColor = .white
 				}
 
-				window?.rootViewController = NewsFeedViewController()
+				window?.rootViewController = NewsFeedAssembly().configure()
 
 				return true
 		}
