@@ -16,6 +16,10 @@
 		4503E7E3284D1A4A004B1917 /* NewsFeedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4503E7E2284D1A4A004B1917 /* NewsFeedPresenter.swift */; };
 		4503E7E5284D1A5B004B1917 /* NewsFeedInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4503E7E4284D1A5B004B1917 /* NewsFeedInteractor.swift */; };
 		4503E7E7284D1A76004B1917 /* NewsFeedRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4503E7E6284D1A76004B1917 /* NewsFeedRouter.swift */; };
+		4546497E284DCB4A0001B4B2 /* СolorPalettes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546497D284DCB4A0001B4B2 /* СolorPalettes.swift */; };
+		45464980284DCCAF0001B4B2 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4546497F284DCCAF0001B4B2 /* Typography.swift */; };
+		45464982284DCCEE0001B4B2 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45464981284DCCEE0001B4B2 /* Icons.swift */; };
+		45464984284DCD200001B4B2 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45464983284DCD200001B4B2 /* Localization.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		4503E7E2284D1A4A004B1917 /* NewsFeedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedPresenter.swift; sourceTree = "<group>"; };
 		4503E7E4284D1A5B004B1917 /* NewsFeedInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedInteractor.swift; sourceTree = "<group>"; };
 		4503E7E6284D1A76004B1917 /* NewsFeedRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedRouter.swift; sourceTree = "<group>"; };
+		4546497D284DCB4A0001B4B2 /* СolorPalettes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СolorPalettes.swift"; sourceTree = "<group>"; };
+		4546497F284DCCAF0001B4B2 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		45464981284DCCEE0001B4B2 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		45464983284DCD200001B4B2 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,19 +72,23 @@
 			children = (
 				4503E7C2284CF9DB004B1917 /* AppDelegate.swift */,
 				4503E7D7284D0632004B1917 /* NewsFeedModule */,
-				4503E7D6284CFA0D004B1917 /* Files */,
+				4503E7D6284CFA0D004B1917 /* Configuration */,
 			);
 			path = Fb;
 			sourceTree = "<group>";
 		};
-		4503E7D6284CFA0D004B1917 /* Files */ = {
+		4503E7D6284CFA0D004B1917 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
 				4503E7CB284CF9DC004B1917 /* Assets.xcassets */,
 				4503E7CD284CF9DC004B1917 /* LaunchScreen.storyboard */,
 				4503E7D0284CF9DC004B1917 /* Info.plist */,
+				4546497D284DCB4A0001B4B2 /* СolorPalettes.swift */,
+				4546497F284DCCAF0001B4B2 /* Typography.swift */,
+				45464981284DCCEE0001B4B2 /* Icons.swift */,
+				45464983284DCD200001B4B2 /* Localization.swift */,
 			);
-			path = Files;
+			path = Configuration;
 			sourceTree = "<group>";
 		};
 		4503E7D7284D0632004B1917 /* NewsFeedModule */ = {
@@ -211,11 +223,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				4503E7DE284D0EB0004B1917 /* NewsFeedProtocols.swift in Sources */,
+				45464984284DCD200001B4B2 /* Localization.swift in Sources */,
 				4503E7E5284D1A5B004B1917 /* NewsFeedInteractor.swift in Sources */,
 				4503E7E3284D1A4A004B1917 /* NewsFeedPresenter.swift in Sources */,
 				4503E7C7284CF9DB004B1917 /* NewsFeedViewController.swift in Sources */,
 				4503E7E1284D137C004B1917 /* NewsFeedAssembly.swift in Sources */,
+				4546497E284DCB4A0001B4B2 /* СolorPalettes.swift in Sources */,
 				4503E7C3284CF9DB004B1917 /* AppDelegate.swift in Sources */,
+				45464980284DCCAF0001B4B2 /* Typography.swift in Sources */,
+				45464982284DCCEE0001B4B2 /* Icons.swift in Sources */,
 				4503E7E7284D1A76004B1917 /* NewsFeedRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
